@@ -7,3 +7,15 @@
 //
 
 import Foundation
+
+struct Story {
+    var title:String
+    var Choice1:String
+    var Choice2:String
+    
+    init(title:String, choice1:String, choice2:String) {
+        self.title = title
+        self.Choice1 = choice1
+        self.Choice2 = choice2
+    }
+}
